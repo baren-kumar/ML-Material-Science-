@@ -1,0 +1,101 @@
+ID,Material Composition,Fiber Type,Matrix Type,Fiber Volume Fraction (%),Matrix Volume Fraction (%),Manufacturing Process,Process Parameters,Tensile Strength (MPa),Flexural Strength (MPa),Thermal Conductivity (W/m·K),Glass Transition Temperature (°C),Impact Resistance (J),Source
+1,CFRP/Epoxy,Carbon,Epoxy,60,40,Autoclave Curing,"120∘C,0.7MPa",1250,1800,1.8,130,45,Synthetic-1
+2,GFRP/Polyester,Glass,Polyester,45,55,Resin Infusion (RTM),"80∘C,0.5MPa",550,850,0.45,95,30,Synthetic-2
+3,AFRP/Epoxy,Aramid,Epoxy,55,45,Prepreg Layup,"135∘C,0.8MPa",820,1100,0.1,140,60,Synthetic-3
+4,CFRP/PEEK,Carbon,PEEK,65,35,Compression Molding,"380∘C,1.2MPa",1600,2200,2.5,180,35,Synthetic-4
+5,BasaltF/PP,Basalt,Polypropylene (PP),30,70,Extrusion,"200∘C,0.2MPa",300,450,0.35,165,40,Synthetic-5
+6,GFRP/Epoxy,Glass,Epoxy,50,50,Hand Layup,"25∘C,Ambient",400,650,0.38,75,20,Synthetic-6
+7,CFRP/Epoxy,Carbon,Epoxy,55,45,Vacuum Bagging,"90∘C,0.1MPa",1050,1500,1.6,110,40,Synthetic-7
+8,SiCF/Ceramic,SiC,Ceramic,40,60,Hot Pressing,"1500∘C,20MPa",200,300,15,1500,15,Synthetic-8
+9,BoronF/Epoxy,Boron,Epoxy,62,38,Filament Winding,"110∘C,0.6MPa",1400,2000,1.9,125,50,Synthetic-9
+10,GFRP/Polyester,Glass,Polyester,40,60,Spray Layup,"25∘C,Ambient",350,500,0.3,65,15,Synthetic-10
+11,CFRP/BMI,Carbon,BMI,60,40,Autoclave Curing,"200∘C,0.9MPa",1300,1900,2,240,55,Synthetic-11
+12,KevlarF/Epoxy,Aramid,Epoxy,50,50,Wet Layup,"25∘C,Ambient",700,950,0.08,85,70,Synthetic-12
+13,CNT/Polymer,Carbon Nanotube,Polycarbonate (PC),5,95,Melt Mixing,"300∘C,0.1MPa",90,130,5,150,25,Synthetic-13
+14,GFRP/Epoxy,Glass,Epoxy,65,35,RTM,"100∘C,0.8MPa",650,950,0.5,115,35,Synthetic-14
+15,CFRP/Epoxy,Carbon,Epoxy,45,55,Autoclave Curing,"140∘C,1.0MPa",950,1350,1.5,145,38,Synthetic-15
+16,NaturalF/PLA,Hemp,PLA,20,80,3D Printing,"210∘C,Ambient",50,80,0.2,60,10,Synthetic-16
+17,GFRP/PEI,Glass,PEI,55,45,Injection Molding,"350∘C,0.8MPa",600,900,0.4,215,40,Synthetic-17
+18,CFRP/Epoxy,Carbon,Epoxy,58,42,Compression Molding,"125∘C,0.6MPa",1100,1600,1.7,135,42,Synthetic-18
+19,SiCF/Epoxy,SiC,Epoxy,50,50,Hand Layup,"25∘C,Ambient",350,550,0.8,70,28,Synthetic-19
+20,CFRP/VinylEster,Carbon,Vinyl Ester,40,60,RTM,"85∘C,0.4MPa",750,1050,1.2,100,32,Synthetic-20
+21,GFRP/Epoxy,Glass,Epoxy,62,38,Autoclave Curing,"130∘C,0.75MPa",680,980,0.55,128,38,Synthetic-21
+22,CFRP/Epoxy,Carbon,Epoxy,48,52,RTM,"105∘C,0.6MPa",980,1450,1.45,118,35,Synthetic-22
+23,BasaltF/Epoxy,Basalt,Epoxy,40,60,Vacuum Infusion,"90∘C,0.1MPa",450,680,0.4,105,25,Synthetic-23
+24,AFRP/Polyimide,Aramid,Polyimide,60,40,Hot Pressing,"250∘C,1.5MPa",950,1250,0.15,280,75,Synthetic-24
+25,NaturalF/Epoxy,Flax,Epoxy,35,65,Hand Layup,"25∘C,Ambient",150,220,0.18,70,18,Synthetic-25
+26,CFRP/PEKK,Carbon,PEKK,55,45,Compression Molding,"360∘C,1.1MPa",1400,2050,2.2,170,32,Synthetic-26
+27,GFRP/Polyester,Glass,Polyester,58,42,Spray Layup,"25∘C,Ambient",480,700,0.42,80,22,Synthetic-27
+28,BoronF/BMI,Boron,BMI,50,50,Autoclave Curing,"220∘C,1.0MPa",1150,1700,2.05,260,48,Synthetic-28
+29,Wood/Epoxy,Wood Fiber,Epoxy,30,70,Extrusion,"150∘C,0.3MPa",120,180,0.25,80,12,Synthetic-29
+30,Glass/Ceramic,Glass,Ceramic,35,65,Sintering,"1200∘C,10MPa",180,280,12,1200,10,Synthetic-30
+31,CFRP/Epoxy,Carbon,Epoxy,61,39,Autoclave Curing,"122∘C,0.72MPa",1270,1830,1.82,132,46,Synthetic-31
+32,GFRP/Polyester,Glass,Polyester,44,56,RTM,"78∘C,0.48MPa",530,830,0.43,93,29,Synthetic-32
+33,AFRP/Epoxy,Aramid,Epoxy,54,46,Prepreg Layup,"133∘C,0.78MPa",800,1080,0.09,138,59,Synthetic-33
+34,CFRP/PEEK,Carbon,PEEK,66,34,Compression Molding,"382∘C,1.22MPa",1620,2220,2.52,182,36,Synthetic-34
+35,BasaltF/PP,Basalt,Polypropylene (PP),31,69,Extrusion,"202∘C,0.22MPa",320,470,0.37,167,41,Synthetic-35
+36,GFRP/Epoxy,Glass,Epoxy,51,49,Hand Layup,"26∘C,Ambient",420,670,0.4,77,21,Synthetic-36
+37,CFRP/Epoxy,Carbon,Epoxy,56,44,Vacuum Bagging,"92∘C,0.12MPa",1070,1520,1.62,112,41,Synthetic-37
+38,SiCF/Ceramic,SiC,Ceramic,41,59,Hot Pressing,"1510∘C,20.2MPa",220,320,15.2,1510,16,Synthetic-38
+39,BoronF/Epoxy,Boron,Epoxy,63,37,Filament Winding,"112∘C,0.62MPa",1420,2020,1.92,127,51,Synthetic-39
+40,GFRP/Polyester,Glass,Polyester,39,61,Spray Layup,"24∘C,Ambient",330,480,0.28,63,14,Synthetic-40
+41,CFRP/BMI,Carbon,BMI,59,41,Autoclave Curing,"198∘C,0.88MPa",1280,1880,1.98,238,54,Synthetic-41
+42,KevlarF/Epoxy,Aramid,Epoxy,49,51,Wet Layup,"26∘C,Ambient",680,930,0.07,83,69,Synthetic-42
+43,CNT/Polymer,Carbon Nanotube,PC,6,94,Melt Mixing,"302∘C,0.12MPa",110,150,5.2,152,26,Synthetic-43
+44,GFRP/Epoxy,Glass,Epoxy,64,36,RTM,"98∘C,0.78MPa",630,930,0.48,113,34,Synthetic-44
+45,CFRP/Epoxy,Carbon,Epoxy,46,54,Autoclave Curing,"142∘C,1.02MPa",970,1370,1.52,147,39,Synthetic-45
+46,NaturalF/PLA,Hemp,PLA,21,79,3D Printing,"212∘C,Ambient",70,100,0.22,62,11,Synthetic-46
+47,GFRP/PEI,Glass,PEI,56,44,Injection Molding,"352∘C,0.82MPa",620,920,0.42,217,41,Synthetic-47
+48,CFRP/Epoxy,Carbon,Epoxy,57,43,Compression Molding,"123∘C,0.58MPa",1080,1580,1.68,133,41,Synthetic-48
+49,SiCF/Epoxy,SiC,Epoxy,49,51,Hand Layup,"26∘C,Ambient",330,530,0.78,68,27,Synthetic-49
+50,CFRP/VinylEster,Carbon,Vinyl Ester,41,59,RTM,"87∘C,0.42MPa",770,1070,1.22,102,33,Synthetic-50
+51,GFRP/Epoxy,Glass,Epoxy,60,40,VARTM,"115∘C,0.1MPa",650,920,0.48,110,34,Synthetic-51
+52,CFRP/Epoxy,Carbon,Epoxy,53,47,Autoclave,"145∘C,0.9MPa",1150,1700,1.7,150,40,Synthetic-52
+53,BasaltF/Polymer,Basalt,HDPE,35,65,Injection Molding,"210∘C,0.4MPa",380,580,0.3,130,30,Synthetic-53
+54,AFRP/Epoxy,Aramid,Epoxy,48,52,Hand Layup,"25∘C,Ambient",650,850,0.07,78,55,Synthetic-54
+55,CNT/Epoxy,Carbon Nanotube,Epoxy,2,98,Melt Mixing,"100∘C,0.1MPa",60,90,4,90,15,Synthetic-55
+56,GFRP/VinylEster,Glass,Vinyl Ester,65,35,Filament Winding,"95∘C,0.6MPa",700,1000,0.55,105,38,Synthetic-56
+57,CFRP/PEEK,Carbon,PEEK,50,50,3D Printing (AFM),"400∘C,0.5MPa",1000,1500,2,190,25,Synthetic-57
+58,GFRP/Polyester,Glass,Polyester,42,58,Spray Layup,"25∘C,Ambient",370,540,0.35,70,16,Synthetic-58
+59,SiCF/Ceramic,SiC,Ceramic,55,45,Hot Pressing,"1600∘C,25MPa",280,420,18,1600,18,Synthetic-59
+60,NaturalF/Epoxy,Jute,Epoxy,40,60,Vacuum Bagging,"80∘C,0.1MPa",200,300,0.2,85,20,Synthetic-60
+61,CFRP/Epoxy,Carbon,Epoxy,63,37,Autoclave Curing,"125∘C,0.8MPa",1300,1850,1.85,135,48,Synthetic-61
+62,GFRP/Polyester,Glass,Polyester,48,52,RTM,"82∘C,0.52MPa",580,880,0.48,98,32,Synthetic-62
+63,AFRP/Epoxy,Aramid,Epoxy,52,48,Prepreg Layup,"130∘C,0.75MPa",790,1050,0.09,135,58,Synthetic-63
+64,CFRP/PEEK,Carbon,PEEK,68,32,Compression Molding,"385∘C,1.25MPa",1650,2250,2.55,185,37,Synthetic-64
+65,BasaltF/PP,Basalt,Polypropylene (PP),28,72,Extrusion,"198∘C,0.18MPa",280,430,0.33,163,39,Synthetic-65
+66,GFRP/Epoxy,Glass,Epoxy,53,47,Hand Layup,"24∘C,Ambient",450,700,0.42,79,23,Synthetic-66
+67,CFRP/Epoxy,Carbon,Epoxy,52,48,Vacuum Bagging,"95∘C,0.15MPa",1000,1450,1.55,105,38,Synthetic-67
+68,SiCF/Ceramic,SiC,Ceramic,38,62,Hot Pressing,"1490∘C,19.8MPa",190,290,14.8,1490,14,Synthetic-68
+69,BoronF/Epoxy,Boron,Epoxy,60,40,Filament Winding,"108∘C,0.58MPa",1380,1980,1.88,123,49,Synthetic-69
+70,GFRP/Polyester,Glass,Polyester,43,57,Spray Layup,"26∘C,Ambient",380,530,0.32,68,17,Synthetic-70
+71,CFRP/BMI,Carbon,BMI,62,38,Autoclave Curing,"202∘C,0.92MPa",1320,1920,2.02,242,56,Synthetic-71
+72,KevlarF/Epoxy,Aramid,Epoxy,51,49,Wet Layup,"24∘C,Ambient",720,970,0.08,87,72,Synthetic-72
+73,CNT/Polymer,Carbon Nanotube,PC,4,96,Melt Mixing,"298∘C,0.08MPa",80,120,4.8,148,24,Synthetic-73
+74,GFRP/Epoxy,Glass,Epoxy,67,33,RTM,"102∘C,0.82MPa",670,970,0.52,117,36,Synthetic-74
+75,CFRP/Epoxy,Carbon,Epoxy,44,56,Autoclave Curing,"138∘C,0.98MPa",930,1330,1.48,143,37,Synthetic-75
+76,NaturalF/PLA,Hemp,PLA,19,81,3D Printing,"208∘C,Ambient",40,70,0.18,58,9,Synthetic-76
+77,GFRP/PEI,Glass,PEI,54,46,Injection Molding,"348∘C,0.78MPa",580,880,0.38,213,39,Synthetic-77
+78,CFRP/Epoxy,Carbon,Epoxy,59,41,Compression Molding,"127∘C,0.62MPa",1120,1620,1.72,137,43,Synthetic-78
+79,SiCF/Epoxy,SiC,Epoxy,51,49,Hand Layup,"24∘C,Ambient",370,570,0.82,72,29,Synthetic-79
+80,CFRP/VinylEster,Carbon,Vinyl Ester,39,61,RTM,"83∘C,0.38MPa",730,1030,1.18,98,31,Synthetic-80
+81,GFRP/Epoxy,Glass,Epoxy,57,43,VARTM,"110∘C,0.12MPa",620,890,0.51,108,33,Synthetic-81
+82,CFRP/Epoxy,Carbon,Epoxy,51,49,Autoclave,"140∘C,0.85MPa",1100,1650,1.65,145,38,Synthetic-82
+83,BasaltF/Polymer,Basalt,HDPE,33,67,Injection Molding,"208∘C,0.38MPa",360,560,0.28,128,29,Synthetic-83
+84,AFRP/Epoxy,Aramid,Epoxy,46,54,Hand Layup,"26∘C,Ambient",630,830,0.06,76,54,Synthetic-84
+85,CNT/Epoxy,Carbon Nanotube,Epoxy,3,97,Melt Mixing,"102∘C,0.12MPa",80,110,4.2,92,16,Synthetic-85
+86,GFRP/VinylEster,Glass,Vinyl Ester,63,37,Filament Winding,"93∘C,0.58MPa",680,980,0.53,103,37,Synthetic-86
+87,CFRP/PEEK,Carbon,PEEK,52,48,3D Printing (AFM),"398∘C,0.48MPa",1020,1520,2.02,192,26,Synthetic-87
+88,GFRP/Polyester,Glass,Polyester,44,56,Spray Layup,"26∘C,Ambient",390,560,0.37,72,17,Synthetic-88
+89,SiCF/Ceramic,SiC,Ceramic,57,43,Hot Pressing,"1620∘C,25.2MPa",300,440,18.2,1620,19,Synthetic-89
+90,NaturalF/Epoxy,Jute,Epoxy,42,58,Vacuum Bagging,"82∘C,0.12MPa",220,320,0.22,87,21,Synthetic-90
+91,CFRP/Epoxy,Carbon,Epoxy,64,36,Autoclave Curing,"127∘C,0.82MPa",1320,1870,1.87,137,49,Synthetic-91
+92,GFRP/Polyester,Glass,Polyester,47,53,RTM,"84∘C,0.54MPa",600,900,0.5,100,33,Synthetic-92
+93,AFRP/Epoxy,Aramid,Epoxy,53,47,Prepreg Layup,"132∘C,0.77MPa",810,1070,0.11,137,59,Synthetic-93
+94,CFRP/PEEK,Carbon,PEEK,67,33,Compression Molding,"387∘C,1.27MPa",1670,2270,2.57,187,38,Synthetic-94
+95,BasaltF/PP,Basalt,Polypropylene (PP),29,71,Extrusion,"200∘C,0.20MPa",290,440,0.34,164,39,Synthetic-95
+96,GFRP/Epoxy,Glass,Epoxy,54,46,Hand Layup,"25∘C,Ambient",470,720,0.44,81,24,Synthetic-96
+97,CFRP/Epoxy,Carbon,Epoxy,51,49,Vacuum Bagging,"97∘C,0.17MPa",1020,1470,1.57,107,39,Synthetic-97
+98,SiCF/Ceramic,SiC,Ceramic,37,63,Hot Pressing,"1480∘C,19.6MPa",180,280,14.7,1480,13,Synthetic-98
+99,BoronF/Epoxy,Boron,Epoxy,59,41,Filament Winding,"106∘C,0.56MPa",1360,1960,1.86,121,48,Synthetic-99
+100,GFRP/Polyester,Glass,Polyester,44,56,Spray Layup,"27∘C,Ambient",390,540,0.34,69,18,Synthetic-100
