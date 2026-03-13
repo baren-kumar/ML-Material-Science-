@@ -1,78 +1,179 @@
-Composite Material Property Prediction using Gaussian Process Regression
-Overview
 
+Forward and Inverse Machine Learning Approaches for Composite Material Property Prediction and Manufacturing Process Analysis
 
-This project demonstrates how Machine Learning can be used to predict the mechanical strength of carbon fiber–epoxy composite materials using Gaussian Process Regression (GPR).
-The model learns the relationship between composite composition parameters and the resulting material strength, enabling fast prediction and surrogate modeling for composite material design.
-This work is useful for researchers and students working in materials science, composite engineering, and machine learning–based material design.
+Project Overview
+
+This repository presents a Machine Learning framework for composite material design, combining Forward Modeling and Inverse Modeling to predict material properties and optimize manufacturing parameters.
+The project demonstrates how machine learning can be integrated with simulation datasets (e.g., FEA) to enable rapid prediction of composite mechanical properties and guide the design of new composite materials.
+
+The framework focuses on predicting properties such as:
+
+•	Tensile Strengt
+
+•	Elastic Modulus
+
+•	Failure Stress
+
+•	Process–property relationships
+
+This repository is intended for researchers in composite materials, materials informatics, and computational materials engineering.
 ________________________________________
-Project Objectives
-•	Predict composite tensile strength using Machine Learning
-•	Apply Gaussian Process Regression (GPR) for material property prediction
-•	Demonstrate uncertainty estimation in predictions
-•	Provide a simple ML workflow for composite material datasets
+Research Objectives
+
+The main objectives of this project are:
+
+•	Develop forward ML models for predicting composite properties from material composition and manufacturing parameters.
+
+•	Develop inverse ML models for identifying optimal material parameters given target properties.
+
+•	Demonstrate surrogate modeling for simulation-based composite design.
+
+•	Enable data-driven composite material discovery.
 ________________________________________
-Dataset
-The dataset contains 500 simulated composite material samples.
-Input Features
-•	carbon_fiber_fraction – fraction of carbon fiber in the composite
-•	epoxy_resin_fraction – fraction of epoxy matrix
-•	volume_fraction – fiber volume fraction
-Target Output
-•	strength – predicted tensile strength of the composite (MPa)
-Example dataset format:
-carbon_fiber_fraction	epoxy_resin_fraction	volume_fraction	strength
-0.55	0.45	0.60	820
-0.60	0.40	0.65	900
-0.50	0.50	0.55	780
-________________________________________
+
 Methodology
-The workflow used in this project:
-1.	Load composite dataset
-2.	Preprocess data using feature scaling
-3.	Split dataset into training and testing sets
-4.	Train a Gaussian Process Regression (GPR) model
-5.	Predict composite strength
-6.	Evaluate model performance
-7.	Estimate prediction uncertainty
-Workflow diagram:
-Dataset → Preprocessing → Train GPR Model → Prediction → Evaluation
+
+Forward Machine Learning Model
+
+The forward model predicts material properties from input parameters.
+Inputs
+•	Fiber type
+
+•	Fiber volume fraction
+
+•	Matrix properties
+
+•	Fiber orientation
+
+•	Cure temperature
+
+•	Manufacturing pressurs
+
+Outputs
+
+•	Tensile strength
+
+•	Elastic modulus
+
+•	Failure strain
+
+Workflow:
+
+Material Composition + Process Parameters
+                ↓
+        Forward ML Mode
+           ↓
+        Predicted Properties
+        
 ________________________________________
-Machine Learning Model
-The project uses Gaussian Process Regression (GPR) with the following kernel structure:
-•	Constant Kernel
-•	Radial Basis Function (RBF) Kernel
-•	White Kernel (noise component)
-This kernel combination allows the model to capture nonlinear relationships between composite parameters and material strength.
-________________________________________
+
+Inverse Machine Learning Model
+
+The inverse model determines the optimal material parameters required to achieve target properties.
+Inputs
+
+•	Target tensile strength
+
+•	Target elastic modulus
+
+Outputs
+
+•	Fiber volume fraction
+
+•	Resin composition
+
+•	Manufacturing parameters
+
+
+
+Workflow:
+
+Target Properties
+        ↓     
+    Inverse Model
+       ↓
+Recommended Material Design
 
 ________________________________________
 
-________________________________________
-Usage
-Run the Jupyter notebook:
-jupyter notebook Comp_GPR.ipynb
-The notebook will:
-•	Load the composite dataset
-•	Train the Gaussian Process model
-•	Predict material strength
-•	Display prediction uncertainty
-•	Visualize model performance
-________________________________________
-Example Prediction
-Input parameters:
-•	Carbon fiber fraction = 0.60
-•	Epoxy resin fraction = 0.40
-•	Fiber volume fraction = 0.65
-Model output:
-Predicted Strength ≈ 920 MPa
-Prediction Uncertainty ≈ ±10 MPa
-________________________________________
+Machine Learning Models Used
+
+Several machine learning models are implemented for material property prediction:
+
+•	Gaussian Process Regression (GPR)
+
+•	Random Forest
+
+•	Support Vector Regression (SVR)
+
+•	Artificial Neural Networks (ANN)
+
+•	Gradient Boosting (XGBoost)
+
+These models are used to construct surrogate models for fast prediction compared to computationally expensive simulations.
+
+
+Dataset
+
+The dataset contains composite material samples generated from:
+
+•	experimental studies
+
+•	finite element simulations
+
+•	literature datasets
+
+Typical dataset features include:
+
+Feature	Description
+
+fiber_type	Carbon / Glass
+
+fiber_volume_fraction	Fiber percentage
+
+matrix_type	Polymer matrix
+
+orientation	Fiber orientation angle
+
+curing_temperature	Manufacturing temperature
+
+pressure	Processing pressure
+
+
+Target properties:
+•	Tensile Strength
+
+•	Elastic Modulus
+
+•	Failure Strain
+
+
+
+
 Applications
-This approach can be applied to:
+
+This framework can be applied to:
+
 •	Composite material design
+
 •	Surrogate modeling for FEA simulations
-•	Materials informatics research
-•	Machine learning–based material discovery
-•	Mechanical property prediction
-________________________________________
+
+•	Materials informatics
+
+•	Data-driven material discovery
+
+•	Manufacturing process optimization
+
+
+
+Author
+
+Baren Kumar Baidya
+
+Master’s in Data Science & Machine Learning
+
+B.Sc in Mechanical Engineering 
+
+
+
+
