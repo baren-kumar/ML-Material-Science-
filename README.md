@@ -8,7 +8,7 @@ The project demonstrates how machine learning can be integrated with simulation 
 
 The framework focuses on predicting properties such as:
 
-•	Tensile Strengt
+•	Tensile Strength
 
 •	Elastic Modulus
 
